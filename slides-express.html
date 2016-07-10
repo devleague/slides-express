@@ -136,11 +136,11 @@ app.get('/', function (req, res) {
 
 app.get('/about', function(req, res) {
   res.send('We are awesome!');
-}
+});
 
 app.get('/faq', function(req, res) {
   res.send('What you need?');
-}
+});
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
